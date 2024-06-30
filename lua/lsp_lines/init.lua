@@ -49,7 +49,7 @@ M.setup = function()
         bufnr = { bufnr, "n" },
         diagnostics = {
           diagnostics,
-          vim.tbl_islist,
+          vim.islist,
           "a list of diagnostics",
         },
         opts = { opts, "t", true },
